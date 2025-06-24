@@ -556,5 +556,5 @@ def _channel_entries(event):
         if isinstance(val, list):
             yield from val
         elif isinstance(val, dict)
-      Add events.py with custom proxy
+    
   
