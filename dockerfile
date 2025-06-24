@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY droxy/proxy.py .
+COPY proxy.py .
 
 RUN pip install Flask gunicorn requests
 
