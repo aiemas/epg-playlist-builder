@@ -555,6 +555,6 @@ def _channel_entries(event):
             continue
         if isinstance(val, list):
             yield from val
-        elif isinstance(val, dict)
+        elif isinstance(val, dict):
     
   
