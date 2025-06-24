@@ -556,5 +556,309 @@ def _channel_entries(event):
         if isinstance(val, list):
             yield from val
         elif isinstance(val, dict):
-    
-  
+            if "channel_id" in val:
+                yield val
+            else:
+                yield from val.values()
+        else:
+            yield val
+
+def extract_channel_ids(schedule) -> set[str]:
+    """
+    Extract channel IDs with enhanced logging
+    """
+    logging.info("🔢 Extracting channel IDs from schedule...")
+    out = set()
+
+    for cats in schedule.values():
+        for events in cats.values():
+            for ev in events:
+                for ch in _channel_entries(ev):
+                    out.add(_extract_cid(ch))
+
+    logging.info(f"✅ Extracted {len(out)} unique channel IDs")
+    logging.debug(f"🔢 Channel IDs: {sorted(list(out))[:10]}..." if len(out) > 10 else f"🔢 Channel IDs: {sorted(list(out))}")
+    return out
+
+# ═════ ENHANCED stream validation ══════════════════════════════════════════
+
+def validate_single(url: str) -> str | None:
+    """
+    Validate single stream URL with retry logic
+    """
+    for attempt in range(3):
+        try:
+            r = requests.head(url, headers=HEADERS, timeout=10, allow_redirects=True)
+            if r.status_code == 200:
+                return url
+            if r.status_code in (404, 410):
+                return None
+            if r.status_code == 429:
+                time.sleep(5)
+                continue
+
+            # Try GET if HEAD fails
+            r = requests.get(url, headers=HEADERS, timeout=10, stream=True)
+            if r.status_code == 200:
+                return url
+            if r.status_code in (404, 410):
+                return None
+
+        except requests.RequestException:
+            continue
+    return None
+
+def build_stream_map(ids: set[str], workers: int = 30) -> dict[str, str]:
+    """
+    ENHANCED stream map builder with progress tracking
+    """
+    logging.info(f"🌐 Validating streams for {len(ids)} channels using {workers} workers...")
+
+    # Generate all possible URLs
+    cand = {tpl.format(num=i): i for i in ids for tpl in URL_TEMPLATES}
+    logging.info(f"🔗 Generated {len(cand)} candidate URLs to test")
+
+    id2url: dict[str, str] = {}
+    failed_count = 0
+
+    with ThreadPoolExecutor(workers) as pool:
+        # Submit all validation tasks
+        futs = {pool.submit(validate_single, u): u for u in cand}
+
+        # Process results with progress bar
+        with tqdm(total=len(futs), desc="Validating streams", disable=not logging.getLogger().isEnabledFor(logging.INFO)) as pbar:
+            for fut in as_completed(futs):
+                url = fut.result()
+                if url:
+                    channel_id = str(cand[futs[fut]])
+                    id2url.setdefault(channel_id, url)
+                    pbar.set_postfix_str(f"✅ {len(id2url)} working")
+                else:
+                    failed_count += 1
+                    pbar.set_postfix_str(f"❌ {failed_count} failed, ✅ {len(id2url)} working")
+                pbar.update(1)
+
+    success_rate = len(id2url) / len(ids) * 100 if ids else 0
+    logging.info(f"✅ Stream validation complete: {len(id2url)}/{len(ids)} channels ({success_rate:.1f}% success rate)")
+
+    if logging.getLogger().isEnabledFor(logging.DEBUG):
+        working_ids = sorted(id2url.keys())
+        failed_ids = sorted(set(ids) - set(working_ids))
+        logging.debug(f"✅ Working channels: {working_ids[:10]}..." if len(working_ids) > 10 else f"✅ Working channels: {working_ids}")
+        logging.debug(f"❌ Failed channels: {failed_ids[:10]}..." if len(failed_ids) > 10 else f"❌ Failed channels: {failed_ids}")
+
+    return id2url
+
+# ═════ ENHANCED main playlist build ════════════════════════════════════════
+
+def make_playlist(schedule, streams, logos, epg_lookup):
+    """
+    ENHANCED playlist generation with detailed statistics and better fallback handling
+    """
+    logging.info("📝 Generating M3U playlist...")
+
+    lines = ["#EXTM3U", f'#EXTM3U url-tvg="{EPG_XML_URL}"']
+
+    # Group events by category
+    grouped = defaultdict(list)
+    for cats in schedule.values():
+        for cat, events in cats.items():
+            grouped[cat.upper()].extend(events)
+
+    logging.info(f"📊 Processing {len(grouped)} categories")
+
+    total = epg_ok = logo_ok = 0
+    channel_stats = defaultdict(int)
+    category_stats = defaultdict(int)
+    country_stats = defaultdict(int)
+
+    for group in sorted(grouped):
+        group_items = 0
+        logging.info(f"📁 Processing category: {group}")
+
+        for ev in tqdm(grouped[group], desc=f"Processing {group}", leave=False, disable=not logging.getLogger().isEnabledFor(logging.INFO)):
+            title = ev["event"]
+
+            for ch in _channel_entries(ev):
+                # Use the API channel name directly
+                cname = ch["channel_name"] if isinstance(ch, dict) else str(ch)
+                cid = _extract_cid(ch)
+                url = streams.get(cid)
+
+                if not url:
+                    logging.debug(f"⚠️  No stream URL for channel {cid} ({cname})")
+                    continue
+
+                total += 1
+                group_items += 1
+                channel_stats[cname] += 1
+
+                # ENHANCED EPG matching with better fallback handling
+                tvg_id = find_best_epg_match(cname, epg_lookup)
+                if not tvg_id:  # If no match found, use channel ID as fallback
+                    tvg_id = cid
+                    logging.debug(f"⚠️  Using channel ID as fallback: {cname} -> {cid}")
+                elif tvg_id != cid:
+                    epg_ok += 1
+                    logging.debug(f"✅ EPG matched: {cname} -> {tvg_id}")
+
+                    # Track country distribution
+                    if '.' in tvg_id:
+                        country_part = tvg_id.split('.')[-1]
+                        if len(country_part) == 2:  # Country code
+                            country_stats[country_part] += 1
+
+                # ENHANCED logo matching
+                logo = find_best_logo(cname, logos)
+                if not logo.endswith('no-logo.png'):
+                    logo_ok += 1
+
+                lines.append(
+                    f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" '
+                    f'group-title="{group}",{title} ({cname})'
+                )
+
+                lines.extend(VLC_HEADERS)
+                lines.append(f"{PROXY_PREFIX}{base64.b64encode(url.encode()).decode()}.m3u8")
+
+        category_stats[group] = group_items
+        logging.info(f"✅ {group}: {group_items} items processed")
+
+    # Write playlist file
+    logging.info(f"💾 Writing playlist to {OUTPUT_FILE}...")
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as fp:
+        fp.write('\n'.join(lines) + '\n')
+
+    # Calculate and log comprehensive statistics
+    epg_pct = epg_ok / total * 100 if total else 0
+    logo_pct = logo_ok / total * 100 if total else 0
+
+    logging.info("📈 FINAL STATISTICS")
+    logging.info("═" * 50)
+    logging.info(f"📝 Total playlist items: {total}")
+    logging.info(f"📋 EPG matches: {epg_ok} ({epg_pct:.1f}%)")
+    logging.info(f"🖼️  Logo matches: {logo_ok} ({logo_pct:.1f}%)")
+    logging.info(f"📁 Categories: {len(category_stats)}")
+    logging.info(f"📺 Unique channels: {len(channel_stats)}")
+
+    if logging.getLogger().isEnabledFor(logging.DEBUG):
+        logging.debug("📊 Category breakdown:")
+        for cat, count in sorted(category_stats.items()):
+            logging.debug(f"  📁 {cat}: {count} items")
+
+        logging.debug("🏁 Country distribution:")
+        for country, count in sorted(country_stats.items(), key=lambda x: x[1], reverse=True):
+            logging.debug(f"  🏁 {country}: {count} channels")
+
+        logging.debug("📺 Top 10 channels:")
+        for channel, count in sorted(channel_stats.items(), key=lambda x: x[1], reverse=True)[:10]:
+            logging.debug(f"  📺 {channel}: {count} events")
+
+# ═════ ENHANCED download helpers ═══════════════════════════════════════════
+
+def download_epg_lookup(sess: requests.Session):
+    """
+    Download EPG lookup with enhanced error handling
+    """
+    logging.info("📡 Downloading EPG ID list...")
+    try:
+        r = sess.get(EPG_IDS_URL, timeout=30)
+        r.raise_for_status()
+        txt = r.text
+
+        lines = txt.splitlines()
+        logging.info(f"📄 Downloaded {len(lines)} EPG entries")
+
+        lookup = build_epg_lookup(lines)
+        return lookup
+
+    except Exception as e:
+        logging.error(f"❌ EPG list download failed: {e}")
+        return {}
+
+# ═════ ENHANCED main entry point ══════════════════════════════════════════
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Build live playlist with ENHANCED EPG matching and comprehensive logging",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s                    # Run with default (WARNING) logging
+  %(prog)s -v                 # Run with INFO logging (shows progress bars)
+  %(prog)s -vv                # Run with DEBUG logging (shows detailed matching)
+  %(prog)s --quiet            # Run with minimal output (ERROR only)
+  %(prog)s -v --workers 50    # Custom worker count with verbose output
+        """
+    )
+
+    # ENHANCED logging options
+    ap.add_argument(
+        "-v", "--verbose",
+        action="count",
+        default=0,
+        help="Increase verbosity: -v for INFO, -vv for DEBUG"
+    )
+    ap.add_argument(
+        "-q", "--quiet",
+        action="store_true",
+        help="Quiet mode (only show errors)"
+    )
+    ap.add_argument(
+        "--workers",
+        type=int,
+        default=30,
+        help="Number of worker threads for stream validation (default: 30)"
+    )
+
+    args = ap.parse_args()
+
+    # Configure logging based on arguments
+    if args.quiet:
+        log_level = logging.ERROR
+        log_format = "ERROR: %(message)s"
+    elif args.verbose >= 2:
+        log_level = logging.DEBUG
+        log_format = "%(levelname)s │ %(funcName)s:%(lineno)d │ %(message)s"
+    elif args.verbose >= 1:
+        log_level = logging.INFO
+        log_format = "%(levelname)s │ %(message)s"
+    else:
+        log_level = logging.WARNING
+        log_format = "%(levelname)s: %(message)s"
+
+    logging.basicConfig(
+        level=log_level,
+        format=log_format,
+        datefmt="%H:%M:%S"
+    )
+
+    logging.info("🚀 Starting ENHANCED live events playlist builder...")
+    logging.info(f"📊 Logging level: {logging.getLevelName(log_level)}")
+    logging.info(f"👥 Worker threads: {args.workers}")
+
+    try:
+        # Main workflow with enhanced error handling
+        schedule = get_schedule()
+        ids = extract_channel_ids(schedule)
+        streams = build_stream_map(ids, workers=args.workers)
+
+        with requests.Session() as s:
+            logos = build_logo_index(s)
+            epg = download_epg_lookup(s)
+
+        make_playlist(schedule, streams, logos, epg)
+
+        logging.info(f"🎉 Playlist generation complete! Output: {OUTPUT_FILE}")
+
+    except KeyboardInterrupt:
+        logging.warning("⚠️  Process interrupted by user")
+    except Exception as e:
+        logging.error(f"❌ Fatal error: {e}")
+        if logging.getLogger().isEnabledFor(logging.DEBUG):
+            import traceback
+            logging.debug(traceback.format_exc())
+        raise
+
+if __name__ == "__main__":
+    main()
