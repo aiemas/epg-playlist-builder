@@ -57,7 +57,7 @@ from tqdm import tqdm
 # ═════════════════════════════ constants ═══════════════════════════════════
 
 SCHEDULE_URL = "https://daddylive.dad/schedule/schedule-generated.php"
-PROXY_PREFIX = "https://aiemas-dproxy.hf.space/watch/"
+PROXY_PREFIX = ""
 OUTPUT_FILE = "schedule_playlist.m3u8"
 EPG_IDS_URL = "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.txt"
 EPG_XML_URL = "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
