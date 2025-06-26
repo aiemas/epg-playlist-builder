@@ -1,44 +1,46 @@
-#!/usr/bin/env python3
-
 import requests
+from datetime import datetime
 
-OUTPUT_FILE = "direct_playlist.m3u8"
-
-URL_TEMPLATES = [
-    "https://nfsnew.newkso.ru/nfs/premium{num}/mono.m3u8",
-    "https://windnew.newkso.ru/wind/premium{num}/mono.m3u8",
-    "https://zekonew.newkso.ru/zeko/premium{num}/mono.m3u8",
-    "https://dokko1new.newkso.ru/dokko1/premium{num}/mono.m3u8",
-    "https://ddy6new.newkso.ru/ddy6/premium{num}/mono.m3u8",
+# Lista delle sorgenti da testare
+sources = [
+    "nfsnew.newkso.ru",
+    "windnew.newkso.ru",
+    "zekonew.newkso.ru",
+    "dokko1new.newkso.ru",
+    "ddy6new.newkso.ru"
 ]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Referer": "https://daddylive.dad/"
+# Numero massimo di canali per sorgente
+max_channels = 999
+
+# File di output
+output_file = "direct_playlist.m3u8"
+
+# Header per simulare uno Smart TV
+headers = {
+    "User-Agent": "Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV"
 }
 
-def validate_url(url):
-    try:
-        r = requests.head(url, headers=HEADERS, timeout=5, allow_redirects=True)
-        return r.status_code == 200
-    except Exception:
-        return False
+print(f"🔍 Inizio scansione: {datetime.now()}")
 
-def generate_playlist():
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+with open(output_file, "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
 
-        for template in URL_TEMPLATES:
-            for i in range(1, 1000):
-                url = template.format(num=i)
-                if validate_url(url):
-                    name = url.split("/")[2].split(".")[0].upper() + " Channel " + str(i)
-                    f.write(f"#EXTINF:-1,{name}\n{url}\n")
-                    print(f"✅ Aggiunto: {name}")
+    for source in sources:
+        for i in range(1, max_channels + 1):
+            url = f"https://{source}/nfs/premium{i}/mono.m3u8"
+
+            try:
+                res = requests.get(url, headers=headers, timeout=5)
+
+                # Controlla che il contenuto contenga una intestazione .m3u8
+                if res.status_code == 200 and "#EXTM3U" in res.text:
+                    print(f"✅ Valido: {url}")
+                    f.write(f"#EXTINF:-1,{source} Channel {i}\n{url}\n")
                 else:
-                    print(f"⛔ Non valido: {url}")
+                    print(f"❌ Non valido: {url}")
 
-    print(f"\n✅ Playlist salvata in: {OUTPUT_FILE}")
+            except Exception as e:
+                print(f"⚠️ Errore: {url} -> {e}")
 
-if __name__ == "__main__":
-    generate_playlist()
+print(f"✅ Fine scansione: {datetime.now()}")
