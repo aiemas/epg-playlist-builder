@@ -12,9 +12,12 @@ URL_TEMPLATES = [
     "https://ddy6new.newkso.ru/ddy6/premium{num}/mono.m3u8",
 ]
 
+USER_AGENT = "Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36"
+REFERER = "https://xtreaweb.top/"
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36",
-    "Referer": "https://xtreaweb.top/"
+    "User-Agent": USER_AGENT,
+    "Referer": REFERER
 }
 
 def validate_url(url):
@@ -33,7 +36,10 @@ def generate_playlist():
                 url = template.format(num=i)
                 if validate_url(url):
                     name = url.split("/")[2].split(".")[0].upper() + " Channel " + str(i)
-                    f.write(f"#EXTINF:-1,{name}\n{url}\n")
+                    f.write(f"#EXTINF:-1,{name}\n")
+                    f.write(f"#EXTVLCOPT:http-user-agent={USER_AGENT}\n")
+                    f.write(f"#EXTVLCOPT:http-referrer={REFERER}\n")
+                    f.write(f"{url}\n")
                     print(f"✅ Aggiunto: {name}")
                 else:
                     print(f"⛔ Non valido: {url}")
