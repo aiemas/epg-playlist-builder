@@ -30,6 +30,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add *.m3u8
           git commit -m "Aggiorna playlist giornaliera automatica" || echo "Nessuna modifica"
-          git push
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
