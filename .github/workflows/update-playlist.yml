@@ -2,8 +2,8 @@ name: Aggiorna Playlist
 
 on:
   schedule:
-    - cron: "0 4 * * *"     # ogni giorno alle 4:00 UTC (6:00 italiane)
-  workflow_dispatch:         # permette l'avvio manuale
+    - cron: "0 4 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
