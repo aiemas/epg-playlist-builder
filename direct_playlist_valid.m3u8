@@ -4656,3 +4656,95 @@ https://x4new.newkso.ru/x4/pro7maxx/mono.m3u8
 
 #EXTINF:-1,ptvsportspk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) Appl
+
+#EXTINF:-1,raidue
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/raidue/mono.m3u8
+
+#EXTINF:-1,skymix
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/skymix/mono.m3u8
+
+#EXTINF:-1,skysports251IT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/skysports251IT/mono.m3u8
+
+#EXTINF:-1,skysportscalcioIT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/skysportscalcioIT/mono.m3u8
+
+#EXTINF:-1,skysportsf1italy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/skysportsf1italy/mono.m3u8
+
+#EXTINF:-1,sport1il
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/sport1il/mono.m3u8
+
+#EXTINF:-1,sportklub1serbia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/sportklub1serbia/mono.m3u8
+
+#EXTINF:-1,sportklub3serbia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/sportklub3serbia/mono.m3u8
+
+#EXTINF:-1,test222
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/test222/mono.m3u8
+
+#EXTINF:-1,tnt
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/tnt/mono.m3u8
+
+#EXTINF:-1,tntsports8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/tntsports8/mono.m3u8
+
+#EXTINF:-1,trt1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/trt1/mono.m3u8
+
+#EXTINF:-1,uiJ0AV5Kdj
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/uiJ0AV5Kdj/mono.m3u8
+
+#EXTINF:-1,usanetwork
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/usanetwork/mono.m3u8
+
+#EXTINF:-1,ustvcbs
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/ustvcbs/mono.m3u8
+
+#EXTINF:-1,ustvhbo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/ustvhbo/mono.m3u8
+
+#EXTINF:-1,ustvsyfy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/ustvsyfy/mono.m3u8
+
+#EXTINF:-1,ustvwnyw
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/ustvwnyw/mono.m3u8
+
+#EXTINF:-1,vtm2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/vtm2/mono.m3u8
+
+#EXTINF:-1,willowtv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/willowtv/mono.m3u8
+
+#EXTINF:-1,willowxtra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/willowxtra/mono.m3u8
+
+#EXTINF:-1,xbbc1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/xbbc1/mono.m3u8
+
+#EXTINF:-1,xbbc2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) TV SamsungBrowser/2.1 Safari/537.36
+https://x4new.newkso.ru/x4/xbbc2/mono.m3u8
