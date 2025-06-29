@@ -1,0 +1,37 @@
+#EXTM3U
+#EXTINF:-1 group-title="Soccer", 00:00 - Copa Argentina - Belgrano vs Defensores de Belgrano - TyC Sports Argentina
+https://thedaddy.click/embed/stream-850.php
+#EXTINF:-1 group-title="Soccer", 00:30 - Argentinean Cup (Copa Argentina) - Tigre vs Banfield - Sport TV1 Portugal
+https://thedaddy.click/cast/stream-49.php
+#EXTINF:-1 group-title="Soccer", 02:35 - Brazil - Serie B - CRB vs América Mineiro - ESPN Brazil
+https://thedaddy.click/cast/stream-81.php
+#EXTINF:-1 group-title="Soccer", 03:00 - FIFA Club World Cup - Al Hilal vs Pachuca - SporTV3 BR
+https://thedaddy.click/cast/stream-80.php
+#EXTINF:-1 group-title="Soccer", 03:00 - FIFA Club World Cup - Salzburg vs Real Madrid - Supersport Grandstand
+https://thedaddy.click/cast/stream-412.php
+#EXTINF:-1 group-title="Soccer", 03:00 - Women's Friendly - USA vs Republic of Ireland - NBC UNIVERSO USA
+https://thedaddy.click/cast/stream-845.php
+#EXTINF:-1 group-title="Soccer", 03:00 - Women's Friendly - USA vs Republic of Ireland - TBS USA
+https://thedaddy.click/cast/stream-336.php
+#EXTINF:-1 group-title="Soccer", 03:00 - Women's Friendly - USA vs Republic of Ireland - RTE 2 Ireland
+https://thedaddy.click/cast/stream-365.php
+#EXTINF:-1 group-title="Soccer", 13:00 - Women's Friendly - Australia vs Slovenia - TV Slovenija 2
+https://thedaddy.click/cast/stream-1.php
+#EXTINF:-1 group-title="Soccer", 13:00 - Women's Friendly - Australia vs Slovenia - 10 Australia
+https://thedaddy.click/cast/stream-2.php
+#EXTINF:-1 group-title="Soccer", 18:00 - Women's Friendly - Switzerland vs Czech Republic - RTS 2 Switzerland
+https://thedaddy.click/cast/stream-3.php
+#EXTINF:-1 group-title="Soccer", 18:00 - Women's Friendly - Switzerland vs Czech Republic - ČT Sport Czech Republic
+https://thedaddy.click/cast/stream-4.php
+#EXTINF:-1 group-title="Soccer", 20:00 - UEFA Euro U19 Final - Spain U19 vs Netherlands U19 - Canal 11 Portugal
+https://thedaddy.click/cast/stream-540.php
+#EXTINF:-1 group-title="Soccer", 20:00 - Women's Friendly - Netherlands vs Finland - ESPN 1 NL
+https://thedaddy.click/cast/stream-379.php
+#EXTINF:-1 group-title="Soccer", 20:15 - Women's Friendly - Belgium vs Greece - Vodafone Sport
+https://thedaddy.click/cast/stream-260.php
+#EXTINF:-1 group-title="Soccer", 21:00 - FIFA Club World Cup - Juventus vs Manchester City - Channel 5 UK
+https://thedaddy.click/cast/stream-355.php
+#EXTINF:-1 group-title="Soccer", 21:00 - FIFA Club World Cup - Juventus vs Manchester City - TNT USA
+https://thedaddy.click/cast/stream-338.php
+#EXTINF:-1 group-title="Soccer", 21:00 - FIFA Club World Cup - Juventus vs Manchester City - truTV USA
+https://thedaddy.click/cast/stream-341.php
