@@ -1,0 +1,145 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="TNT 1 UK" tvg-logo="" group-title="(DADDY LIVE)",(TNT 1 UK)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://hipaf6u2j3pwygg.nice-flower.store/v4/variant/VE1gTdz0mLzRnLv52bt9SMhFjdtM3ajFmc09CO1czNxIDNxIzM4MTLzMmY50CZ1YGNtkTZ3QWLkZTMlRTY2Y2L.m3u8|User-Agent="Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1"|Referer="https://vecloud.eu/"|Origin="https://vecloud.eu"|EncKey="bba193685442b264ac68b4f5ef9faf91:0x3030303030303030303030306857e8fc"
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai sport 1" tvg-logo="" group-title="(DADDY LIVE)",(DUBAI SPORT 1)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+http://max2new.newkso.ru/max2/primairibvarezh/mono.m3u8
+
+#EXTINF:-1, Dokko Channel 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium538/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai sport 3" tvg-logo="" group-title=" (DADDY LIVE)",(Dubai sport 3)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium606/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Abu Dhabi sport 1" tvg-logo="" group-title=" (DADDY LIVE)", (Abu Dhabi sport 1)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium609/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Abu Dhabi Sport 2" tvg-logo="" group-title=" (DADDY LIVE)",(Abu Dhabi sport 2)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium601/mono.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA Sport prime" tvg-logo="" group-title=" (DADDY LIVE)",(NOVA sport prima)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium638/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA sport start" tvg-logo="" group-title=" (DADDY LIVE)", (NOVA sport start)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium637/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Cosmote sport
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium622/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT 1 ITA" tvg-logo="" group-title=" (DADDY LIVE)",(SKY SPORT 1 ITA)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://dokko1new.newkso.ru/dokko1/premium538/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 1 GR" tvg-logo="" group-title=" (DADDY LIVE)",(NOVA SP 1 GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTS1/index.fmp4.m3u8?token=d2010761f3f5360525ebaa5935bed0ef31f83a0b-81a816f08af4bfcf10ecabec60e9a707-1748201962-1748191162
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 2 GR" tvg-logo="" group-title="(DADDY LIVE)", (NOVA SP 2 GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTS2/index.fmp4.m3u8?token=7adf47c51b13e80a149849ae9190d1cc2f9e5a8e-4daa4f8a01a2850951289444c7d40331-1748202093-1748191293
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 3 GR" tvg-logo="" group-title=" (DADDY LIVE)", (NOVA SP 3 GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTS3/index.fmp4.m3u8?token=0cb8dbc8a1bfa35bffe45c730f34d8c0e256e9ce-5f5caf4f9dd25a23e40877c8194c139e-1748202172-1748191372
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 4 GR" tvg-logo="" group-title=" (DADDY LIVE)",(NOVA SP 4 GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTS4/index.fmp4.m3u8?token=7f36531b50cc3069b1c5e819331532e44aec6800-14d7e8820be1fa40aa6318e0d8d63837-1748202246-1748191446
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 5 GR" tvg-logo="" group-title=" (DADDY LIVE)", (NOVA SP 5 GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTS5/index.fmp4.m3u8?token=1414fb92d6ccf81c8bdf0abc230ef93c21cd7a2f-c6f41282d16a50511abf436b2a6e1af4-1748202292-1748191492
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP 6 GR" tvg-logo="" group-title="(DADDY LIVE)", (NOVA SP 6 GR)
+https://beautifulpeople.lovecdn.ru/beINSPORTS1TR/tracks-a1/index.fmp4.m3u8?token=4c0a9fa1e730793cc77c4e1fa3a40d189f15e838-cc1d3e78a6f97e574eb7f57af6df3a99-1748199177-1748188377
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA SP PREMIER LEAGUE GR" tvg-logo="" group-title="(DADDY LIVE)", (NOVA SP PREMIER LEAGUE GR)
+https://beautifulpeople.lovecdn.ru/NOVASPORTSPL/index.fmp4.m3u8?token=f1bd86b47eeedf634d9dff23e53da1d3a5b6e19e-bb3cfa5391e6fe7fa55d1898e934b55f-1748202434-1748191634
+
+#EXTINF:-1 tvg-id="" tvg-name="ARENA SPORT 1 PREMIUM" tvg-logo="" group-title="(DADDY LIVE)",(ARENA SPORT 1 PREMIUM)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://x4new.newkso.ru/x4/arena1premiumserbia/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ARENA SPORT 2 PREMIUM" tvg-logo="" group-title="(DADDY LIVE)", (ARENA SPORT 2 PREMIUM)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://x4new.newkso.ru/x4/arena2premiumserbia/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT ARENA IT" tvg-logo="" group-title=" (DADDY LIVE)", (SKY SPORT ARENA IT)
+https://beautifulpeople.lovecdn.ru/SkySportArenaIT/tracks-v1/index.fmp4.m3u8?token=4430d162e6c8a6342aec999d7a718719b2d88f0d-4f2116c28bc7cc8e01ac153b975edd4a-1748206407-1748195607
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 UK " tvg-logo="" group-title=" (DADDY LIVE)", (DAZN 2 UK)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ASTRO FOOTBALL" tvg-logo="" group-title=" (DADDY LIVE)", (ASTRO FOOTBALL)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://m4.merichunidya.com:999/hls/do6.m3u8?md5=NJ8Mp1jFA-PD8PSL1sPhkg&expires=1748204917
+
+#EXTINF:-1 tvg-id="" tvg-name="SPORT UNKN" tvg-logo="" group-title=" (DADDY LIVE)", (SKY SPORT UNKN)
+https://a51.azplay11.me/hls/streama237102/index.m3u8?cst=4712b4bc03f55ad53db3b3d37d796403
+
+#EXTINF:-1 tvg-id="" tvg-name="Cosmote sport
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ASTRO ARENA BOLA" tvg-logo="" group-title=" (DADDY LIVE)", (ASTRO ARENA BOLA)
+https://m2.merichunidya.com:999/hls/do9.m3u8?md5=WmE5QSwlY59gIC09fM1ZAA&expires=1748205880
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN ITA" tvg-logo="" group-title=" (DADDY LIVE)", (DAZN ITA)
+https://m3.merichunidya.com:999/hls/do45.m3u8?md5=Q1yluh1hqkJ9MswP7s8a4w&expires=1748206012
+
+#EXTINF:-1 tvg-id="" tvg-name="DIGISPORT RO 1" tvg-logo="" group-title=" (DADDY LIVE)", (DIGISPORT RO 1)
+https://nfsnew.newkso.ru/nfs/premium400/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="COSMOTE 5 GR" tvg-logo="" group-title=" (DADDY LIVE)", (COSMOTE 1 GR)
+https://m1.merichunidya.com:999/hls/do26.m3u8?md5=fPpfAZhkzmpCXKDrWz-__Q&expires=1748206140
+
+#EXTINF:-1 tvg-id="" tvg-name="DIRETTA GOL DAZN" tvg-logo="" group-title=" (DADDY LIVE)", (DIRETTA GOL DAZN)
+https://x4-cdnnew.newkso.ru/x4-cdn/mono47/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ASTRO ARENA BOLA 2" tvg-logo="" group-title=" (DADDY LIVE)", (ASTRO ARENA BOLA 2)
+https://m4.merichunidya.com:999/hls/do5.m3u8?md5=7eV6y6NKn18cqokij8cT8A&expires=1748206941
+
+#EXTINF:-1 tvg-id="" tvg-name="COSMOTE SPORT 7 GR" tvg-logo="" group-title=" (DADDY LIVE)", (COSMOTE SPORT 7 GR)
+https://m2.merichunidya.com:999/hls/do28.m3u8?md5=nDxBstmck76XMT7Mrs4vcA&expires=1748207086
+
+#EXTINF:-1 tvg-id="" tvg-name="LA LIGA UK" tvg-logo="" group-title=" (DADDY LIVE)", (LA LIGA UK)
+https://windnew.newkso.ru/wind/premium276/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 UK" tvg-logo="" group-title=" (DADDY LIVE)", (DAZN 1 UK)
+https://ddy6new.newkso.ru/ddy6/premium426/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="NOW SPORTS 2" tvg-logo="" group-title=" (DADDY LIVE)", (NOW SPORTS 2)
+https://x4-cdnnew.newkso.ru/x4-cdn/mono10/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 DE" tvg-logo="" group-title=" (DADDY LIVE)", (DAZN 1 DE)
+https://a90.azplay11.me/hls/streama237932/index.m3u8?cst=b48acd4044d531fcc1c92d2ecd4d6ecc
+
+#EXTINF:-1 tvg-id="" tvg-name="MEGOGO 1" tvg-logo="" group-title=" (DADDY LIVE)", (MEGOGO 1)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+https://zekonew.newkso.ru/zeko/premium502/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ESPN DEPORTES" tvg-logo="" group-title=" (DADDY LIVE)", (ESPN DEPORTES)
+https://huhu.to/play/1534161807/index.m3u8
