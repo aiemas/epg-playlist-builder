@@ -4,6 +4,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 https://zekonew.newkso.ru/zeko/premium123/mono.m3u8
 #EXTINF:-1,Astro SuperSport 4
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
 https://zekonew.newkso.ru/zeko/premium126/mono.m3u8
 #EXTINF:-1,Astro SuperSport 2
 https://windnew.newkso.ru/wind/premium124/mono.m3u8
@@ -1455,6 +1456,7 @@ https://nfsnew.newkso.ru/nfs/premium922/mono.m3u8
 https://windnew.newkso.ru/wind/premium260/mono.m3u8
 #EXTINF:-1,V Sport Motor Sweden
 https://zekonew.newkso.ru/zeko/premium272/mono.m3u8
+
 
 
 
