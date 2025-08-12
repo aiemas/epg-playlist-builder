@@ -1728,7 +1728,7 @@ https://windnew.newkso.ru/wind/premium580/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
 https://windnew.newkso.ru/wind/premium581/mono.m3u8
 #EXTINF:-1 group-title="WIND",premium59
-#EXTVLCOPT:http-referer=https://jxoplay.xyz/
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
 https://windnew.newkso.ru/wind/premium59/mono.m3u8
 #EXTINF:-1 group-title="WIND",premium599
