@@ -8835,8 +8835,7 @@ https://zekonew.newkso.ru/zeko/premium118/mono.m3u8
 #EXTVLCOPT:http-referer=https://jxoplay.xyz/
 https://zekonew.newkso.ru/zeko/premium119/mono.m3u8
 #EXTINF:-1 group-title="ZEKO",premium123
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
-#EXTVLCOPT:http-referer=https://jxoplay.xyz/
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
 https://zekonew.newkso.ru/zeko/premium123/mono.m3u8
 #EXTINF:-1 group-title="ZEKO",premium125
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
