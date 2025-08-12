@@ -346,7 +346,7 @@ https://dokko1new.newkso.ru/dokko1/premium802/mono.m3u8
 https://nfsnew.newkso.ru/nfs/premium400/mono.m3u8
 #EXTVLCOPT:http-referrer=https://jxoplay.xyz/
 #EXTINF:-1,Digi Sport 2 Romania
-#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-referer=https://jxoplay.xyz/
 https://nfsnew.newkso.ru/nfs/premium401/mono.m3u8
 #EXTINF:-1,Digi Sport 4 Romania
 #EXTVLCOPT:http-referrer=https://jxoplay.xyz/
@@ -1585,6 +1585,7 @@ https://nfsnew.newkso.ru/nfs/premium922/mono.m3u8
 https://windnew.newkso.ru/wind/premium260/mono.m3u8
 #EXTINF:-1,V Sport Motor Sweden
 https://zekonew.newkso.ru/zeko/premium272/mono.m3u8
+
 
 
 
