@@ -1905,7 +1905,8 @@ https://windnew.newkso.ru/wind/premium680/mono.m3u8
 https://windnew.newkso.ru/wind/premium866/mono.m3u8
 
 #EXTINF:-1 group-title="ITALY" tvg-id="Sky.Cinema.Family.it" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/sky-cinema-family-it.png",Sky Cinema Family Italy
-
+#EXTVLCOPT:http-origin=https://topembed.pw
+#EXTVLCOPT:http-referrer=https://topembed.pw/
 https://windnew.newkso.ru/wind/premium865/mono.m3u8
 
 #EXTINF:-1 group-title="UNITED KINGDOM" tvg-id="Sky.Family.HD.uk" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/sky-cinema-family-uk.png",Sky Cinema Family UK
@@ -2911,5 +2912,6 @@ https://windnew.newkso.ru/wind/premium61/mono.m3u8
 https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
 
 #EXTINF:-1 group-title="RUSSIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/match-boets-ru.png",МАТЧ! БОЕЦ Russia
+
 
 https://nfsnew.newkso.ru/nfs/premium395/mono.m3u8
