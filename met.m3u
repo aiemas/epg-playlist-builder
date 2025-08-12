@@ -1907,6 +1907,7 @@ https://windnew.newkso.ru/wind/premium866/mono.m3u8
 #EXTINF:-1 group-title="ITALY" tvg-id="Sky.Cinema.Family.it" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/sky-cinema-family-it.png",Sky Cinema Family Italy
 #EXTVLCOPT:http-origin=https://topembed.pw
 #EXTVLCOPT:http-referrer=https://topembed.pw/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 https://windnew.newkso.ru/wind/premium865/mono.m3u8
 
 #EXTINF:-1 group-title="UNITED KINGDOM" tvg-id="Sky.Family.HD.uk" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/sky-cinema-family-uk.png",Sky Cinema Family UK
@@ -2915,3 +2916,4 @@ https://zekonew.newkso.ru/zeko/premium90/mono.m3u8
 
 
 https://nfsnew.newkso.ru/nfs/premium395/mono.m3u8
+
