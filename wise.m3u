@@ -150,9 +150,8 @@ https://thedaddy.click/cast/stream-28.php
 #EXTVLCOPT:http-origin=https://lefttoplay.xyz
 https://thedaddy.click/cast/stream-556.php
 #EXTINF:-1 group-title="[13:00] DFB Pokal : Simulcast",Sky Sport Mix DE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-#EXTVLCOPT:http-referrer=https://lefttoplay.xyz/
-#EXTVLCOPT:http-origin=https://lefttoplay.xyz
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 https://thedaddy.click/cast/stream-557.php
 #EXTINF:-1 group-title="[13:00] DFB Pokal : Viktoria Köln vs Paderborn",Sky Sport 4 DE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
@@ -2859,4 +2858,5 @@ https://thedaddy.click/cast/stream-132.php
 #EXTVLCOPT:http-referrer=https://lefttoplay.xyz/
 #EXTVLCOPT:http-origin=https://lefttoplay.xyz
 https://thedaddy.click/cast/stream-68.php
+
 
