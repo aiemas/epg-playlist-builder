@@ -842,7 +842,7 @@ https://thedaddy.click/cast/stream-265.php
 #EXTGRP:[15:30] Friendly Women : Union Berlin W Real Madrid W
 #EXTINF:-1 group-title="[15:30] Friendly Women : Union Berlin W Real Madrid W",Real Madrid TV Spain
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-#EXTVLCOPT:http-referrer=https://lefttoplay.xyz/
+#EXTVLCOPT:http-referer=https://lefttoplay.xyz/
 #EXTVLCOPT:http-origin=https://lefttoplay.xyz
 https://thedaddy.click/cast/stream-523.php
 #EXTGRP:[15:30] DFB Pokal : Simulcast
@@ -3042,3 +3042,4 @@ https://thedaddy.click/cast/stream-132.php
 #EXTVLCOPT:http-referrer=https://lefttoplay.xyz/
 #EXTVLCOPT:http-origin=https://lefttoplay.xyz
 https://thedaddy.click/cast/stream-68.php
+
