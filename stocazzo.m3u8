@@ -1,0 +1,262 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/epgs/daddylive-channels-epg.xml"
+
+#EXTINF:-1 group-title="SPAIN" tvg-id="M+.Vamos.es" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/vamos.png",#Vamos Spain
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium521/mono.m3u8
+
+#EXTINF:-1 group-title="ITALY" tvg-id="20(Italian).it" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/20mediaset.png",20 Mediaset Italy
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium857/mono.m3u8
+
+#EXTINF:-1 group-title="GERMANY" tvg-id="3sat.de" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/3sat.png",3sat DE
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium726/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED KINGDOM" tvg-id="5.USA.uk" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/5-usa.png",5 USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium360/mono.m3u8
+
+#EXTINF:-1 group-title="DENMARK" tvg-id="6eren.dk" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/6eren.png",6'eren Denmark
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium800/mono.m3u8
+
+#EXTINF:-1 group-title="PAKISTAN" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/a-sport-pk.png",A Sport PK
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium269/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="A.and.E.US.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/aande.png",A&E USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium302/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="ABC.NEWS.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abc.png",ABC USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium51/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="ABC.(WABC).New.York,.NY.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abc.png",ABCNY USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium766/mono.m3u8
+
+#EXTINF:-1 group-title="GERMANY" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abs-cbn.png",ABS-CBN
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium785/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="ACC.Network.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/acc-network.png",ACC Network USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium664/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="AMC.-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/amc.png",AMC USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nfsnew.koskoros.ru/nfs/premium303/mono.m3u8
+
+#EXTINF:-1 group-title="PORTUGAL" tvg-id="AXN.Movies.HD.pt" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/axn-movies.png",AXN Movies Portugal
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium717/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="AXS.TV.USA.HD.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/axs-tv.png",AXS TV USA
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nfsnew.koskoros.ru/nfs/premium742/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED ARAB EMIRATES" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abu-dhabi-sports.png",Abu Dhabi Sports 1 Premium
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium609/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED ARAB EMIRATES" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abu-dhabi-sports.png",Abu Dhabi Sports 1 UAE
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium600/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED ARAB EMIRATES" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abu-dhabi-sports.png",Abu Dhabi Sports 2 Premium
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium610/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED ARAB EMIRATES" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/abu-dhabi-sports.png",Abu Dhabi Sports 2 UAE
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium601/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="AdultSwim.com.Cartoon.Network.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/adult-swim.png",Adult Swim
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium295/mono.m3u8
+
+#EXTINF:-1 group-title="QATAR" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/alkass-four.png",Alkass Four
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium784/mono.m3u8
+
+#EXTINF:-1 group-title="QATAR" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/alkass-one.png",Alkass One
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium781/mono.m3u8
+
+#EXTINF:-1 group-title="QATAR" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/alkass-three.png",Alkass Three
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium783/mono.m3u8
+
+#EXTINF:-1 group-title="QATAR" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/alkass-two.png",Alkass Two
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium782/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="Altitude.Sports.-.Denver.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/altitude-sports.png",Altitude Sports
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nfsnew.koskoros.ru/nfs/premium923/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="American.Heroes.Channel.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/american-heroes-channel.png",American Heroes Channel
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium206/mono.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES" tvg-id="Animal.Planet.US.-.East.us" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/animal-planet.png",Animal Planet
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nfsnew.koskoros.ru/nfs/premium304/mono.m3u8
+
+#EXTINF:-1 group-title="SPAIN" tvg-id="Antena.3.es" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/antena-3.png",Antena 3 Spain
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://dokko1new.koskoros.ru/dokko1/premium531/mono.m3u8
+
+#EXTINF:-1 group-title="BOSNIA AND HERZEGOVINA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-1.png",Arena Sport 1 BiH
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium579/mono.m3u8
+
+#EXTINF:-1 group-title="CROATIA" tvg-id="Arena.Sport.1.HD.hr" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-1.png",Arena Sport 1 Croatia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium432/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-1-premium.png",Arena Sport 1 Premium
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium134/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-1.png",Arena Sport 1 Serbia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium429/mono.m3u8
+
+#EXTINF:-1 group-title="CROATIA" tvg-id="Arena.Sport.2.HD.hr" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-2.png",Arena Sport 2 Croatia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium433/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-2-premium.png",Arena Sport 2 Premium
+#EXTVLCOPT:http-origin=https://topembed.pw
+#EXTVLCOPT:http-referrer=https://topembed.pw/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium135/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-2.png",Arena Sport 2 Serbia
+#EXTVLCOPT:http-origin=https://topembed.pw
+#EXTVLCOPT:http-referrer=https://topembed.pw/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium430/mono.m3u8
+
+#EXTINF:-1 group-title="CROATIA" tvg-id="Arena.Sport.3.HD.hr" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-3.png",Arena Sport 3 Croatia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium434/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-3-premium.png",Arena Sport 3 Premium
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium139/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-3.png",Arena Sport 3 Serbia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium431/mono.m3u8
+
+#EXTINF:-1 group-title="CROATIA" tvg-id="Arena.Sport.4.HD.hr" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-4.png",Arena Sport 4 Croatia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium580/mono.m3u8
+
+#EXTINF:-1 group-title="SERBIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arena-sport-4.png",Arena Sport 4 Serbia
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium581/mono.m3u8
+
+#EXTINF:-1 group-title="GERMANY" tvg-id="ARTE.de" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/arte.png",Arte DE
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://ddy6new.koskoros.ru/ddy6/premium725/mono.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA" tvg-id="Astro.Cricket.my" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/astro-cricket.png",Astro Cricket
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium370/mono.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/astro-supersport-1.png",Astro SuperSport 1
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://zekonew.koskoros.ru/zeko/premium123/mono.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/astro-supersport-2.png",Astro SuperSport 2
+#EXTVLCOPT:http-origin=https://fnjplay.xyz
+#EXTVLCOPT:http-referrer=https://fnjplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://windnew.koskoros.ru/wind/premium124/mono.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA" tvg-id="test" tvg-logo="https://raw.githubusercontent.com/nightah/daddylive/refs/heads/main/logos/astro-supersport-3.png",Astro SuperSport 3
+#EXTVLCOPT:http-origin=ht
