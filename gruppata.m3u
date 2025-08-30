@@ -1,0 +1,777 @@
+#EXTM3U
+#EXTINF:-1 group-title="[15:30] Bundesliga : Simulcast / Multi View",Sky Sport Bundesliga 5
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Simulcast / Multi View",DAZN2 DE
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Simulcast / Multi View",Arena 4 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",Sky Sport Bundesliga 2
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium2/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",Tivibu Spor 3 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",Eleven Sports 4 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",beIN Sports 5 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium495/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium402/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : RB Leipzig vs Heidenheim",Arena Sport 5 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium940/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Sky Sport Bundesliga 3
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Tivibu Spor 1 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium13/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Eleven Sports 2 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium72/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",beIN Sports 4 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium494/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Digi Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium400/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Prima Sport 1 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium583/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Arena Sport 7 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium942/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Sportklub 1 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium101/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",SEE Denmark
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium811/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",Diema Sport Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium465/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Werder Bremen vs Bayer Leverkusen",SporTV BR
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Hoffenheim vs Eintracht Frankfurt",Sky Sport Bundesliga 4
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Hoffenheim vs Eintracht Frankfurt",Tivibu Spor 2 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Hoffenheim vs Eintracht Frankfurt",beIN Sports 7 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium497/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Hoffenheim vs Eintracht Frankfurt",Prima Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium585/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Hoffenheim vs Eintracht Frankfurt",Sportklub 4 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium104/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Stuttgart vs Borussia M'gladbach",Sky Sport Bundesliga 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium558/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Stuttgart vs Borussia M'gladbach",beIN Sports 6 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium496/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Stuttgart vs Borussia M'gladbach",Digi Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium403/mono.m3u8
+#EXTINF:-1 group-title="[15:30] Bundesliga : Stuttgart vs Borussia M'gladbach",Arena Sport 4 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium581/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",beIN Sports 1 France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium116/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",beIN SPORTS USA
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium425/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",beIN SPORTS en Español
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium372/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",Sport TV3 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium454/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",Arena Sport 9 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium944/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",Arena Sport 3 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium434/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",beIN Sports MENA 4
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium94/mono.m3u8
+#EXTINF:-1 group-title="[17:00] France - Ligue 1 : Lorient vs Lille",5Stars Israel
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",M+ LALIGA TV
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium84/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",LaLigaTV UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium276/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",DAZN2 DE
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",DAZN Eleven 3 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium457/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",beIN Sports 9 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium499/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",Match! Football 2 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",Ziggo Sport 3 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium919/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",ESPN Deportes
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium401/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",Prima Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium584/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",Nova Sports 1 Greece
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium631/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",MAX Sport 4 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium475/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",TV4 Fotball
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium747/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",ESPN4 Brazil
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium85/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Spain - La Liga : Deportivo Alavés vs Atlético Madrid",ESPN Argentina
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium149/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Austria - Bundesliga : Simulcast",Sky Sport Austria 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium559/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Austria - Bundesliga : Salzburg vs Blau-Weiß Linz",Sky Sport Austria 2
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium19/mono.m3u8
+#EXTINF:-1 group-title="[17:00] Austria - Bundesliga : LASK Linz vs Ried",Sky Sport Austria 3
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium20/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Sky Sport Bundesliga 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium558/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Sky Sport Top Event DE
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium556/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Sky Sports Football UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium35/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Tivibu Spor 1 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium13/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",DAZN Eleven 1 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium455/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Eleven Sports 1 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium71/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",beIN Sports 2 France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium117/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium402/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",SEE Denmark
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium811/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Arena 3 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium139/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Prima Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium586/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Sportklub 1 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium101/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Nova Sport Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium468/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",SporTV BR
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium78/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Bundesliga : Augsburg vs Bayern München",Sport 1 Israel
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",CBS Sports Golazo USA
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium910/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",Tivibu Spor 2 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",Eleven Sports 2 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium72/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium396/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",Match! Football 3 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium138/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",Arena Sport 2 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium430/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",TV4 Sport Live 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium703/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Bologna vs Como",MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Tivibu Spor 3 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Sport TV6 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium291/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",FOX Deportes
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium643/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",ESPN Mexico
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium925/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Ziggo Sport 2 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Digi Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium403/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Eleven Sports 2 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium72/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Prima Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium585/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Astro Football
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium124/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Match! Football 1 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium136/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Arena Sport 1 Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium429/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",Arena Sport 4 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium580/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",TV4 Sport Live 2
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium704/mono.m3u8
+#EXTINF:-1 group-title="[18:30] Italy - Serie A : Parma vs Atalanta",MAX Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium473/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",DAZN France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",beIN SPORTS USA
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium425/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",beIN SPORTS en Español
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium372/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",Sport TV3 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium454/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",Arena Sport 3 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium434/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",Diema Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium467/mono.m3u8
+#EXTINF:-1 group-title="[19:00] France - Ligue 1 : Nantes vs Auxerre",beIN Sports MENA 5
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium95/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",DAZN LaLiga
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium538/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",LaLigaTV UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium276/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",Viaplay Sports 1 UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium451/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",Premier Sports 1 Ireland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium771/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",beIN Sports 5 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium495/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",Match! Football 2 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",Arena 5 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",TV2 Sport X Denmark
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium808/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",TV4 Fotball
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium747/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",Prima Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium584/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",beIN Sports MENA 6
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium96/mono.m3u8
+#EXTINF:-1 group-title="[19:00] Spain - La Liga : Real Oviedo vs Real Sociedad",SuperSport Variety
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium416/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",DAZN LaLiga 2
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Viaplay Sports 2 UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium550/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Premier Sports 2 Ireland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium799/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",DAZN2 DE
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",DAZN Eleven 3 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium457/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Eleven Sports 4 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",beIN Sports 6 MAX France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium496/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",beIN Sports Malaysia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium712/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium401/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",ESPN Deportes
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Arena 4 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",TV4 Sport Live 3
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium705/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",MAX Sport 4 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium475/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",ESPN4 Brazil
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium85/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",ESPN Argentina
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium149/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Spain - La Liga : Girona vs Sevilla",SuperSport Variety
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium416/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Austria - Bundesliga : Grazer AK vs Sturm Graz",Sky Sport Austria 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium559/mono.m3u8
+#EXTINF:-1 group-title="[19:30] Austria - Bundesliga : Grazer AK vs Sturm Graz",Sportklub 3 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium103/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",DAZN Zona IT
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",CBS Sports Golazo USA
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium910/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Tivibu Spor 2 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Sport TV6 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium291/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Polsat Sport 2 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium50/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Eleven Sports 1 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium71/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Ziggo Sport 2 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium398/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Digi Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium402/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",ESPN Mexico
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium925/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Astro Football
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium124/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Match! Football 1 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium136/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Arena 2 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium135/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Prima Sport 3 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium585/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Arena Sport 1 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium432/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",TV4 Sportkanalen
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium707/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",MAX Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium474/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",ESPN3 Brazil
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium83/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Napoli vs Cagliari",Sport 1 Israel
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium140/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",TNT Sports 1 UK
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium31/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Sky Sport 251 IT
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium871/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Sky Sport Calcio IT
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Tivibu Spor 3 Turkey
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Eleven Sports 2 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium72/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Sport TV5 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium290/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Prima Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium586/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Digi Sport 4 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium403/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Match! Football 3 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium138/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Arena 3 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium139/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",Arena Sport 4 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium580/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",TV4 Sport Live 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium703/mono.m3u8
+#EXTINF:-1 group-title="[20:45] Italy - Serie A : Pisa vs Roma",MAX Sport 2 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium473/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",DAZN France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium151/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",beIN SPORTS USA
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium425/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",beIN SPORTS en Español
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium372/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",Sport TV3 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium454/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",Eleven Sports 3 Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium428/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",TV3 Sport Denmark
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium809/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",Arena 5 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",Arena Sport 3 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium434/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",beIN Sports MENA 2
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium92/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",Diema Sport 3 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium467/mono.m3u8
+#EXTINF:-1 group-title="[21:05] France - Ligue 1 : Toulouse vs PSG",5Stars Israel
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium147/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",M+ LALIGA TV
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium84/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",DAZN2 DE
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium427/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",DAZN Eleven 1 Portugal
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium455/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Canal+ Sport Poland
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium48/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",beIN Sports 2 France
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium117/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Digi Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium401/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Ziggo Sport 4 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium396/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Ziggo Sport 1 NL
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium393/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",beIN Sports Malaysia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium712/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Match! Football 2 Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium137/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",ESPN Deportes
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium375/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Match TV Russia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://ddy6new.newkso.ru/ddy6/premium127/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Arena 1 Premium Serbia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium134/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Nova Sports 1 Greece
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium631/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Arena Sport 2 Croatia
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://zekonew.newkso.ru/zeko/premium433/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",TV2 Sport X Denmark
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium808/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",TV4 Fotball
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium747/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",MAX Sport 4 Bulgaria
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium475/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",beIN Sports MENA English 1
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://windnew.newkso.ru/wind/premium61/mono.m3u8
+#EXTINF:-1 group-title="[21:30] Spain - La Liga : Real Madrid vs Mallorca",Prima Sport 2 Romania
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 TV Safari/537.36
+https://dokko1new.newkso.ru/dokko1/premium584/mono.m3u8
