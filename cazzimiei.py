@@ -2,54 +2,60 @@ from seleniumwire import webdriver
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-# 🔹 Player da usare
 PLAYER_PATHS = ["watch", "player"]
+CHANNEL_RANGE = range(1, 101)  # da 1 a 1000
 
-# 🔹 Canali da 1 a 1000
-CHANNEL_IDS = range(1, 1001)
+# Scrive l'intestazione iniziale del file M3U
+with open("cazzimiei.m3u", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
 
-# 🔹 Funzione per estrarre link m3u8 da un embed
 def extract_m3u8(url):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
-    driver = webdriver.Chrome(options=options)
+
+    seleniumwire_options = {
+        'connection_timeout': None,
+        'verify_ssl': False,
+        'mitm_http2': False,
+        'exclude_hosts': ['fonts.googleapis.com', 'google.com', 'gstatic.com']
+    }
+
+    driver = webdriver.Chrome(options=options, seleniumwire_options=seleniumwire_options)
     try:
+        driver.set_page_load_timeout(30)
         driver.get(url)
-        time.sleep(5)  # Attendi caricamento richieste
+        time.sleep(5)
+
         m3u8_urls = set()
         for req in driver.requests:
             if req.response and ".m3u8" in req.url:
                 m3u8_urls.add(req.url)
+
         return list(m3u8_urls)
+    except Exception as e:
+        print(f"⚠️ Errore su {url}: {e}")
+        return []
     finally:
         driver.quit()
 
-# 🔹 Funzione per fare scraping di un singolo player e canale
 def scrape_player(channel_id, path):
     url = f"https://daddylivestream.com/{path}/stream-{channel_id}.php"
     print(f"🚀 Scraping {url}")
     links = extract_m3u8(url)
+
     if links:
-        print(f"✅ Trovati {len(links)} link in {path} per canale {channel_id}")
+        print(f"✅ {len(links)} link trovati in {path} per canale {channel_id}")
+        with open("cazzimiei.m3u", "a", encoding="utf-8") as f:
+            for l in links:
+                f.write(f'#EXTINF:-1 group-title="Channel {channel_id}",Channel {channel_id}\n')
+                f.write(l + "\n")
     else:
         print(f"❌ Nessun link trovato in {path} per canale {channel_id}")
-    return links
 
 if __name__ == "__main__":
-    all_links = []
+    for channel_id in CHANNEL_RANGE:
+        print(f"\n🔎 Canale {channel_id}")
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            executor.map(lambda path: scrape_player(channel_id, path), PLAYER_PATHS)
 
-    # Esegui scraping con ThreadPool per velocizzare
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        for channel_id in CHANNEL_IDS:
-            results = executor.map(lambda path: scrape_player(channel_id, path), PLAYER_PATHS)
-            for r in results:
-                all_links.extend(r)
-
-    # 🔹 Scrivi file m3u nella root della repo
-    with open("cazzimiei.m3u", "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for link in all_links:
-            f.write(f"{link}\n")
-
-    print(f"\n🎯 Totale link trovati: {len(all_links)}")
-    print("✅ File creato: cazzimiei.m3u")
+    print("\n🎯 Scraping completato, file salvato: cazzimiei.m3u")
