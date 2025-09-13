@@ -27,14 +27,17 @@ jobs:
         run: |
           python televizoeve.py
 
-      - name: Commit and push playlist if changed
+            - name: Commit and push playlist if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet televizoeve.m3u; then
             git add televizoeve.m3u
             git commit -m "🔄 Update televizoeve.m3u [skip ci]"
-            git push
+            git push origin HEAD:main
           else
             echo "Nessuna modifica, niente commit"
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
