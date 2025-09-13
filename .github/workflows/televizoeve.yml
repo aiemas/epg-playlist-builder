@@ -1,0 +1,38 @@
+name: Build televizoeve.m3u
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # ogni 30 minuti
+  workflow_dispatch:          # permette l'avvio manuale se serve
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run script
+        run: |
+          python televizoeve.py
+
+      - name: Commit and push playlist if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet televizoeve.m3u; then
+            git add televizoeve.m3u
+            git commit -m "🔄 Update televizoeve.m3u [skip ci]"
+            git push
+          else
+            echo "Nessuna modifica, niente commit"
