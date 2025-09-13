@@ -1,14 +1,11 @@
-name: Cazzimiei
+name: Run Cazzimiei
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"   # ogni giorno alle 6:00 UTC
+  workflow_dispatch: # lo avvii solo a mano
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -20,22 +17,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 playwright blinker==1.5
-          playwright install chromium
+          pip install selenium selenium-wire webdriver-manager
 
-      - name: Run script
-        run: python script.py
+      - name: Run scraper
+        run: python cazzimiei.py
 
-      - name: Upload cazzimiei.m3u
+      - name: Upload playlist artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cazzimiei
+          name: cazzimiei-playlist
           path: cazzimiei.m3u
-
-      - name: Commit cazzimiei.m3u
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add cazzimiei.m3u
-          git commit -m "Update cazzimiei.m3u" || echo "No changes to commit"
-          git push
