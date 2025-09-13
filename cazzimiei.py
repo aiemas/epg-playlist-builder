@@ -1,36 +1,24 @@
+#!/usr/bin/env python3
 from seleniumwire import webdriver
 import time
-from concurrent.futures import ThreadPoolExecutor
 
+# Range dei canali
+CHANNELS = range(1, 100)
 PLAYER_PATHS = ["watch", "player"]
-CHANNEL_RANGE = range(1, 101)  # da 1 a 1000
 
-# Scrive l'intestazione iniziale del file M3U
-with open("cazzimiei.m3u", "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
+OUTPUT_FILE = "cazzimiei.m3u"
 
 def extract_m3u8(url):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
-
-    seleniumwire_options = {
-        'connection_timeout': None,
-        'verify_ssl': False,
-        'mitm_http2': False,
-        'exclude_hosts': ['fonts.googleapis.com', 'google.com', 'gstatic.com']
-    }
-
-    driver = webdriver.Chrome(options=options, seleniumwire_options=seleniumwire_options)
+    driver = webdriver.Chrome(options=options)
     try:
-        driver.set_page_load_timeout(30)
         driver.get(url)
         time.sleep(5)
-
         m3u8_urls = set()
         for req in driver.requests:
             if req.response and ".m3u8" in req.url:
                 m3u8_urls.add(req.url)
-
         return list(m3u8_urls)
     except Exception as e:
         print(f"⚠️ Errore su {url}: {e}")
@@ -38,24 +26,30 @@ def extract_m3u8(url):
     finally:
         driver.quit()
 
-def scrape_player(channel_id, path):
-    url = f"https://daddylivestream.com/{path}/stream-{channel_id}.php"
-    print(f"🚀 Scraping {url}")
-    links = extract_m3u8(url)
-
-    if links:
-        print(f"✅ {len(links)} link trovati in {path} per canale {channel_id}")
-        with open("cazzimiei.m3u", "a", encoding="utf-8") as f:
-            for l in links:
-                f.write(f'#EXTINF:-1 group-title="Channel {channel_id}",Channel {channel_id}\n')
-                f.write(l + "\n")
-    else:
-        print(f"❌ Nessun link trovato in {path} per canale {channel_id}")
+def scrape_channel(channel_id):
+    all_links = []
+    for path in PLAYER_PATHS:
+        url = f"https://daddylivestream.com/{path}/stream-{channel_id}.php"
+        print(f"🚀 Scraping {url}")
+        links = extract_m3u8(url)
+        if links:
+            print(f"✅ Canale {channel_id} ({path}): trovati {len(links)} link")
+            all_links.extend(links)
+        else:
+            print(f"❌ Canale {channel_id} ({path}): nessun link")
+    return all_links
 
 if __name__ == "__main__":
-    for channel_id in CHANNEL_RANGE:
-        print(f"\n🔎 Canale {channel_id}")
-        with ThreadPoolExecutor(max_workers=2) as executor:
-            executor.map(lambda path: scrape_player(channel_id, path), PLAYER_PATHS)
+    all_results = []
 
-    print("\n🎯 Scraping completato, file salvato: cazzimiei.m3u")
+    for ch in CHANNELS:
+        links = scrape_channel(ch)
+        for link in links:
+            all_results.append(f"#EXTINF:-1,Channel {ch}\n{link}")
+
+    # Scrivi sempre il file, anche se vuoto
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        f.write("\n".join(all_results))
+
+    print(f"\n🎯 File {OUTPUT_FILE} creato con {len(all_results)} link totali")
