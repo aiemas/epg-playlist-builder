@@ -1,14 +1,16 @@
-name: Test Cazzimiei
+name: Cazzimiei
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"   # ogni giorno alle 6:00 UTC
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -18,9 +20,22 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install blinker==1.5
-          pip install selenium selenium-wire
+          pip install requests beautifulsoup4 playwright blinker==1.5
+          playwright install chromium
 
       - name: Run script
-        run: python cazzimiei.py
+        run: python script.py
+
+      - name: Upload cazzimiei.m3u
+        uses: actions/upload-artifact@v3
+        with:
+          name: cazzimiei
+          path: cazzimiei.m3u
+
+      - name: Commit cazzimiei.m3u
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add cazzimiei.m3u
+          git commit -m "Update cazzimiei.m3u" || echo "No changes to commit"
+          git push
