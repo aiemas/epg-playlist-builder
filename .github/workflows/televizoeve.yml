@@ -3,7 +3,7 @@ name: Build televizoeve.m3u
 on:
   schedule:
     - cron: "*/30 * * * *"   # ogni 30 minuti
-  workflow_dispatch:          # permette l'avvio manuale se serve
+  workflow_dispatch:         # per poterlo lanciare manualmente
 
 jobs:
   build:
@@ -21,6 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install selenium selenium-wire
 
       - name: Run script
         run: |
@@ -36,3 +37,4 @@ jobs:
             git push
           else
             echo "Nessuna modifica, niente commit"
+          fi
