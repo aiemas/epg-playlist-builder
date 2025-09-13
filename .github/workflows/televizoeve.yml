@@ -1,9 +1,7 @@
 name: Build televizoeve.m3u
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
+  workflow_dispatch:   # rimuove il cron, esegui manualmente
 
 jobs:
   build:
