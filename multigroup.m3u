@@ -11972,7 +11972,7 @@ https://ava.karmakurama.com/wikihz/wikiwrc/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium1
 #EXTVLCOPT:http-origin=https://enz.gdplayertv.to
 #EXTVLCOPT:http-referrer=https://enz.gdplayertv.to/
-#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://ava.karmakurama.com/nfs/premium1/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium10
 #EXTVLCOPT:http-origin=https://enz.gdplayertv.to
