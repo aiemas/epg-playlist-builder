@@ -6915,10 +6915,9 @@ https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium1
-#EXTVLCOPT:http-origin=https://shin.karmakurama.com
-#EXTVLCOPT:http-referrer=https://shin.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
-https://shin.karmakurama.com/wind/premium134/mono.m3u8
+#EXTVLCOPT:http-referrer=https://jxoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium10
 #EXTVLCOPT:http-origin=https://enz.gdplayertv.to
 #EXTVLCOPT:http-referrer=https://enz.gdplayertv.to/
