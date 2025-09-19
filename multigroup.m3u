@@ -6910,13 +6910,13 @@ https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTINF:-1 group-title="WIKIHZ",wikiwrc
-#EXTVLCOPT:http-origin=https://enz.gdplayertv.to
-#EXTVLCOPT:http-referrer=https://enz.gdplayertv.to/
+#EXTVLCOPT:http-origin=https://shin.karmakurama.com
+#EXTVLCOPT:http-referrer=https://shin.karmakurama.con/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium1
-#EXTVLCOPT:http-origin=https://enz.gdplayertv.to
-#EXTVLCOPT:http-referrer=https://enz.gdplayertv.to/
+#EXTVLCOPT:http-origin=https://shin.karmakurama.com
+#EXTVLCOPT:http-referrer=https://shin.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://shin.karmakurama.com/wind/premium134/mono.m3u8
 #EXTINF:-1 group-title="NFS",premium10
