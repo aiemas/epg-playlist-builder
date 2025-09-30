@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Mock App — Partite & Canali</title>
+<style>
+  :root{
+    --bg:#0f1724; --card:#0b1220; --muted:#9aa7b2; --accent:#00c2a8;
+    --glass: rgba(255,255,255,0.03);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; background:
+    radial-gradient(1200px 600px at 10% 10%, rgba(0,194,168,0.08), transparent 8%),
+    linear-gradient(180deg,#071021 0%, #071827 100%);
+    color:#e6eef3;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+  .wrap{max-width:1100px; margin:28px auto; padding:20px;}
+  header{display:flex;gap:16px;align-items:center; margin-bottom:18px}
+  .logo{
+    width:56px;height:56px;border-radius:12px;
+    background:linear-gradient(135deg,var(--accent),#2bd1b0);
+    display:grid;place-items:center;font-weight:700;color:#04202a;font-size:18px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  }
+  h1{font-size:20px;margin:0}
+  p.lead{margin:0;color:var(--muted);font-size:13px}
+
+  .controls{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap}
+  .search{
+    flex:1; min-width:220px;
+    background:var(--glass); border:1px solid rgba(255,255,255,0.03);
+    padding:10px 12px;border-radius:10px;color:inherit;
+  }
+  .btn{
+    background:linear-gradient(180deg,#0e1a28,#071225);
+    border:1px solid rgba(255,255,255,0.03);
+    color:var(--accent); padding:10px 14px;border-radius:10px;
+    cursor:pointer; font-weight:600;
+  }
+  .btn.secondary{ background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.03) }
+  .filters{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+  .grid{display:grid;grid-template-columns:1fr; gap:12px; margin-top:18px}
+  @media(min-width:880px){ .grid{grid-template-columns: 1fr 360px} }
+
+  /* left column: list */
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); 
+    border-radius:12px;padding:12px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 20px rgba(2,6,12,0.5);
+  }
+
+  .match{
+    padding:12px;border-radius:10px; background: rgba(255,255,255,0.01);
+    display:flex;align-items:flex-start;gap:12px; border:1px solid transparent;
+  }
+  .match + .match{margin-top:10px}
+  .match:hover{border-color:rgba(255,255,255,0.04)}
+  .meta{min-width:6rem; text-align:left; color:var(--muted); font-size:12px}
+  .teams{flex:1}
+  .teams h3{margin:0;font-size:15px}
+  .teams p{margin:6px 0 0;color:var(--muted);font-size:13px}
+  .actions{display:flex;gap:8px;align-items:center}
+  .toggle{
+    background:transparent;border:1px dashed rgba(255,255,255,0.03);
+    padding:6px 8px;border-radius:8px;cursor:pointer;color:var(--muted);font-weight:600;
+  }
+
+  .channels{margin-top:10px;padding:8px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+  .channel{display:flex;align-items:center;justify-content:space-between;padding:6px 8px;border-radius:6px; margin-bottom:6px;}
+  .channel .left{display:flex;gap:10px;align-items:center}
+  .badge{font-size:12px;padding:6px 8px;border-radius:8px;background:rgba(0,0,0,0.25);color:var(--muted)}
+  .channel .title{font-weight:600}
+  .small{font-size:12px;color:var(--muted)}
+
+  /* right column: preview/export */
+  .panel h4{margin:0 0 8px 0}
+  .preview{min-height:120px;border-radius:8px;padding:12px;background:linear-gradient(180deg, rgba(0,0,0,0.15), transparent); color:var(--muted)}
+  .m3uarea{width:100%;height:180px;background:#020617;border-radius:8px;padding:12px;color:#cfeff0;font-family:monospace;font-size:13px;overflow:auto; white-space:pre-wrap}
+
+  footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+  a.link{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">EPG</div>
+    <div>
+      <h1>Mock Player — Partite & Canali</h1>
+      <p class="lead">Interfaccia di prova per l'app. Espandi ogni partita per vedere i canali. Puoi copiare link o scaricare M3U.</p>
+    </div>
+  </header>
+
+  <div class="controls">
+    <input id="search" class="search" placeholder="Cerca partita (es: Roma, Arsenal, Barcelona)..." />
+    <div class="filters">
+      <button id="expandAll" class="btn secondary">Espandi tutto</button>
+      <button id="collapseAll" class="btn secondary">Comprimi tutto</button>
+      <button id="exportM3U" class="btn">Esporta M3U</button>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div>
+      <div id="list" class="card" aria-live="polite"></div>
+    </div>
+
+    <aside class="card panel">
+      <h4>Anteprima M3U</h4>
+      <div class="small">Mostra i primi 200 link generati (file scaricabile completo con il pulsante Esporta M3U).</div>
+      <div id="m3u" class="m3uarea"></div>
+      <div style="margin-top:10px; display:flex;gap:8px">
+        <button id="downloadBtn" class="btn">Scarica .m3u</button>
+        <button id="copyM3U" class="btn secondary">Copia negli appunti</button>
+      </div>
+      <div style="margin-top:12px" class="small">Nota: i link sono fittizi (127.0.0.1) — in ambiente reale lo scraper li sostituirà.</div>
+    </aside>
+  </div>
+
+  <footer>Prototype — non collegato a streaming reale · <a class="link" href="#" onclick="alert('Repo/Docs placeholder')">Docs</a></footer>
+</div>
+
+<script>
+/*
+  Mock data — qui trovi le partite e i canali fittizi.
+  Integrazione reale: sostituisci questo array con i dati dallo scraper (fetch o JSON).
+*/
+const sampleMatches = [
+  {
+    teams: "Livingston vs Rangers",
+    time: "16:00",
+    competition: "Scotland - Scottish Premiership",
+    channels: [
+      {title:"SKY SPORTS FOOTBALL", link:"http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d"},
+      {title:"SKY SPORTS FOOTBALL (backup)", link:"http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87"},
+      {title:"POLSAT SPORT PREMIUM 2", link:"http://127.0.0.1:6878/ace/getstream?id=3147c586346aee00c005d1caa55204d38678c95f"}
+    ]
+  },
+  {
+    teams: "Aston Villa vs Fulham",
+    time: "13:00",
+    competition: "England - Premier League",
+    channels: [
+      {title:"ELEVEN DAZN 2 HD", link:"http://127.0.0.1:6878/ace/getstream?id=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce"},
+      {title:"SKY SPORTS PREMIER", link:"http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e"},
+      {title:"SKY SPORTS MAIN EVENT", link:"http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e"},
+      {title:"DAZN 1 FHD", link:"http://127.0.0.1:6878/ace/getstream?id=eb6ffec065b26259ad3d1811e0bbb0a5332ed276"}
+    ]
+  },
+  {
+    teams: "Barcelona vs Real Sociedad",
+    time: "16:30",
+    competition: "Spain - La Liga",
+    channels: [
+      {title:"ELEVEN SPORTS 1 HD", link:"http://127.0.0.1:6878/ace/getstream?id=14407b00d454cb7dc0d70aa26e8bbc554f457f00"},
+      {title:"M. LALIGA FHD", link:"http://127.0.0.1:6878/ace/getstream?id=00c9bc9c5d7d87680a5a6bed349edfa775a89947"}
+    ]
+  },
+  {
+    teams: "Roma vs Hellas Verona",
+    time: "13:00",
+    competition: "Italy - Serie A",
+    channels: [
+      {title:"SPORT TV2 FHD", link:"http://127.0.0.1:6878/ace/getstream?id=e8ccd6a0c1b49e29b99ccbf95add01ffdf01d212"},
+      {title:"ELEVEN SPORTS 1 4K", link:"http://127.0.0.1:6878/ace/getstream?id=7ac2d74ef6df9d15012992d7e0e635a95f58c652"}
+    ]
+  }
+];
+
+/* ---------- Rendering & interaction ---------- */
+const listEl = document.getElementById('list');
+const m3uEl  = document.getElementById('m3u');
+const searchInput = document.getElementById('search');
+
+function buildList(matches){
+  listEl.innerHTML = '';
+  matches.forEach((m, idx) => {
+    const matchWrap = document.createElement('div');
+    matchWrap.className = 'match';
+    matchWrap.dataset.index = idx;
+
+    matchWrap.innerHTML = `
+      <div class="meta">
+        <div class="small">${m.competition}</div>
+        <div style="font-weight:700;margin-top:6px">${m.time}</div>
+      </div>
+      <div class="teams">
+        <h3>${m.teams}</h3>
+        <p class="small">${m.channels.length} canali</p>
+        <div class="channels" style="display:none"></div>
+      </div>
+      <div class="actions">
+        <button class="toggle">Apri</button>
+      </div>
+    `;
+    // populate channels
+    const chContainer = matchWrap.querySelector('.channels');
+    m.channels.forEach((c, i) => {
+      const ch = document.createElement('div');
+      ch.className = 'channel';
+      ch.innerHTML = `
+        <div class="left">
+          <div class="badge">${i+1}</div>
+          <div>
+            <div class="title">${c.title}</div>
+            <div class="small">${c.link}</div>
+          </div>
+        </div>
+        <div class="right">
+          <button class="btn copyBtn">Copia</button>
+          <button class="btn secondary openBtn">Apri</button>
+        </div>
+      `;
+      // events
+      ch.querySelector('.copyBtn').addEventListener('click', ()=> {
+        navigator.clipboard?.writeText(c.link);
+        flash(ch, "Link copiato!");
+      });
+      ch.querySelector('.openBtn').addEventListener('click', ()=> {
+        // prova ad aprire link in nuova tab (simula apertura player)
+        window.open(c.link, '_blank');
+      });
+
+      chContainer.appendChild(ch);
+    });
+
+    // toggle behavior
+    const toggle = matchWrap.querySelector('.toggle');
+    toggle.addEventListener('click', () => {
+      const visible = chContainer.style.display !== 'none';
+      chContainer.style.display = visible ? 'none' : 'block';
+      toggle.textContent = visible ? 'Apri' : 'Chiudi';
+      updatePreview(); // update preview when user opens/closes
+    });
+
+    listEl.appendChild(matchWrap);
+  });
+  updatePreview();
+}
+
+function flash(el, txt){
+  const tmp = document.createElement('div');
+  tmp.textContent = txt;
+  tmp.style.position='absolute'; tmp.style.background='var(--accent)'; tmp.style.color='#012';
+  tmp.style.padding='6px 10px'; tmp.style.borderRadius='6px'; tmp.style.fontWeight='700';
+  el.style.position='relative'; el.appendChild(tmp);
+  setTimeout(()=> tmp.remove(),900);
+}
+
+/* build M3U preview: show only channels that are currently visible/expanded,
+   but export button downloads all channels */
+function updatePreview(){
+  let m3u = "#EXTM3U\n";
+  const matches = Array.from(listEl.querySelectorAll('.match'));
+  matches.forEach((matchEl) => {
+    const teams = matchEl.querySelector('h3').textContent.trim();
+    const chContainer = matchEl.querySelector('.channels');
+    if (chContainer && chContainer.style.display !== 'none'){
+      // show all channels inside this match
+      Array.from(chContainer.querySelectorAll('.channel .small')).forEach((linkEl, idx) => {
+        const url = linkEl.textContent.trim();
+        m3u += `#EXTINF:-1,${teams} - Channel ${idx+1}\n${url}\n`;
+      });
+    }
+  });
+  m3uEl.textContent = m3u.slice(0, 1500) || "// Espandi una partita per vedere l'anteprima M3U";
+}
+
+/* Export completo (tutti i link) */
+function exportFullM3U(){
+  let m3u = "#EXTM3U\n";
+  sampleMatches.forEach((m) => {
+    m.channels.forEach((c, idx) => {
+      m3u += `#EXTINF:-1 group-title="${m.teams}",${c.title}\n${c.link}\n`;
+    });
+  });
+  return m3u;
+}
+
+/* Download helper */
+function download(filename, text){
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], {type:'text/plain'}));
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+/* search */
+searchInput.addEventListener('input', (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) buildList(sampleMatches);
+  else {
+    const results = sampleMatches.filter(m => 
+      m.teams.toLowerCase().includes(q) ||
+      m.competition.toLowerCase().includes(q)
+    );
+    buildList(results);
+  }
+});
+
+/* buttons */
+document.getElementById('expandAll').addEventListener('click', ()=>{
+  document.querySelectorAll('.channels').forEach(c => c.style.display = 'block');
+  document.querySelectorAll('.toggle').forEach(t => t.textContent = 'Chiudi');
+  updatePreview();
+});
+document.getElementById('collapseAll').addEventListener('click', ()=>{
+  document.querySelectorAll('.channels').forEach(c => c.style.display = 'none');
+  document.querySelectorAll('.toggle').forEach(t => t.textContent = 'Apri');
+  updatePreview();
+});
+document.getElementById('exportM3U').addEventListener('click', ()=>{
+  const content = exportFullM3U();
+  download('platinsport_mock.m3u', content);
+});
+document.getElementById('downloadBtn').addEventListener('click', ()=>{
+  const content = exportFullM3U();
+  download('platinsport_preview.m3u', content);
+});
+document.getElementById('copyM3U').addEventListener('click', async ()=>{
+  const txt = exportFullM3U();
+  try{ await navigator.clipboard.writeText(txt); alert('M3U copiato negli appunti'); }
+  catch(e){ alert('Impossibile copiare: usa Scarica'); }
+});
+
+/* initial render */
+buildList(sampleMatches);
+</script>
+</body>
+</html>
