@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Mock App — Partite & Canali</title>
+<style>
+  :root{
+    --bg:#0f1724; --card:#0b1220; --muted:#98a0b3;
+    --accent:#06b6d4; --glass: rgba(255,255,255,0.03);
+    --radius:12px;
+    font-family: Inter, Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+  }
+  html,body{height:100%;margin:0;background:linear-gradient(180deg,#071226 0%,#081827 100%);color:#e6eef6}
+  .app {
+    max-width:1100px;margin:28px auto;padding:20px;display:grid;
+    grid-template-columns: 1fr 360px; gap:20px;
+  }
+
+  /* Left column */
+  .left {
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius:var(--radius); padding:18px; box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+  }
+  header{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .logo {width:48px;height:48px;background:var(--accent);border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#042124}
+  h1{font-size:18px;margin:0}
+  .search {margin-left:auto}
+  .search input{
+    background:var(--glass); border:1px solid rgba(255,255,255,0.04); padding:8px 10px;border-radius:8px;color:var(--muted);
+    width:320px; outline:none;
+  }
+
+  .match-list {display:flex;flex-direction:column;gap:10px; max-height:72vh; overflow:auto; padding-right:6px}
+  .match-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
+    border-radius:10px;padding:12px;border:1px solid rgba(255,255,255,0.03);
+    display:flex;flex-direction:column; gap:8px;
+  }
+  .match-head {display:flex;align-items:center;gap:12px}
+  .league {font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.6px}
+  .teams {font-size:16px;font-weight:600}
+  .meta {font-size:13px;color:var(--muted)}
+  .channels {display:flex;gap:8px;flex-wrap:wrap}
+
+  .channel {
+    background: rgba(255,255,255,0.02); padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);
+    display:inline-flex;gap:8px;align-items:center;cursor:pointer; font-size:13px;
+  }
+  .channel:hover{transform:translateY(-3px); transition:all .12s ease}
+
+  /* Right column */
+  .right {
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius:var(--radius); padding:18px; box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+    display:flex;flex-direction:column;gap:12px;
+  }
+  .now {font-size:14px;color:var(--muted)}
+  .player-preview {height:220px;background:linear-gradient(90deg,#021420,#071b2a);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px}
+  .small {font-size:13px;color:var(--muted)}
+
+  /* modal */
+  .modal-backdrop {position:fixed;inset:0;background:rgba(2,6,23,0.7);display:none;align-items:center;justify-content:center;z-index:9999}
+  .modal {width:min(900px,96%);background:#061223;padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+  .modal header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+  .close-btn {background:transparent;border:0;color:var(--muted);font-size:18px;cursor:pointer}
+
+  /* small helpers */
+  .pill {background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:999px;font-size:12px;color:var(--muted);border:1px solid rgba(255,255,255,0.02)}
+  .muted{color:var(--muted)}
+  @media (max-width:980px){
+    .app{grid-template-columns:1fr; padding:10px}
+    .search input{width:100%}
+    .right{order:2}
+  }
+</style>
+</head>
+<body>
+  <div class="app" role="application" aria-label="Mock sports app">
+    <div class="left" aria-live="polite">
+      <header>
+        <div class="logo">SP</div>
+        <div>
+          <h1>Partite & Canali — Mock</h1>
+          <div class="muted">Anteprima interfaccia app</div>
+        </div>
+        <div class="search" style="margin-left:auto">
+          <input id="q" placeholder="Cerca squadra (es. Roma, Arsenal)..." />
+        </div>
+      </header>
+
+      <div id="matchList" class="match-list" aria-label="Elenco partite">
+        <!-- cards inserite da JS -->
+      </div>
+    </div>
+
+    <aside class="right" aria-label="Dettagli e player">
+      <div class="now">Oggi • <strong id="dateNow"></strong></div>
+      <div class="player-preview" id="preview">
+        Seleziona un canale per anteprima
+      </div>
+      <div class="small">Esempio: cliccando un canale si apre il player. I link mostrati sono fittizi.</div>
+    </aside>
+  </div>
+
+  <!-- Modal player -->
+  <div id="modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <header>
+        <div>
+          <div id="modalTitle" style="font-weight:700"></div>
+          <div class="muted" id="modalSub"></div>
+        </div>
+        <div>
+          <button class="close-btn" id="closeModal" title="Chiudi">✕</button>
+        </div>
+      </header>
+      <div>
+        <!-- video player -->
+        <video id="video" controls playsinline style="width:100%;border-radius:8px;background:#000">
+          <source id="videoSrc" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+<script>
+/*
+  Mock data: ogni partita ha una lista di canali (URL fittizi).
+  In app reale sostituire con i risultati dello scraper (JSON).
+*/
+const MOCK = [
+  {
+    league: "Scotland - Scottish Premiership",
+    time: "14:00",
+    teams: "Livingston vs Rangers",
+    channels:[
+      {name:"SKY SPORTS FOOTBALL", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"POLSAT SPORT PREMIUM 2", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"MATCH! FOOTBALL 1 FHD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"}
+    ]
+  },
+  {
+    league: "England - Premier League",
+    time: "13:00",
+    teams: "Aston Villa vs Fulham",
+    channels:[
+      {name:"ELEVEN DAZN 2 HD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"SKY SPORTS PREMIER", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"DAZN 1 FHD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"DAZN 1 BAR FHD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"}
+    ]
+  },
+  {
+    league: "Spain - La Liga",
+    time: "16:30",
+    teams: "Barcelona vs Real Sociedad",
+    channels:[
+      {name:"ELEVEN SPORTS 1 4K", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"BEIN SPORTS 2 FHD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"}
+    ]
+  },
+  {
+    league: "Italy - Serie A",
+    time: "13:00",
+    teams: "Roma vs Hellas Verona",
+    channels:[
+      {name:"SPORT TV2 FHD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"},
+      {name:"ELEVEN SPORTS 1 HD", url:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"}
+    ]
+  }
+];
+
+// helpers
+const matchListEl = document.getElementById("matchList");
+const q = document.getElementById("q");
+const dateNow = document.getElementById("dateNow");
+const preview = document.getElementById("preview");
+const modal = document.getElementById("modal");
+const closeModal = document.getElementById("closeModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalSub = document.getElementById("modalSub");
+const video = document.getElementById("video");
+const videoSrc = document.getElementById("videoSrc");
+
+dateNow.textContent = new Date().toLocaleDateString(undefined, {weekday:"long", day:"numeric", month:"short", year:"numeric"});
+
+// render cards
+function render(list){
+  matchListEl.innerHTML = "";
+  list.forEach((m, idx) => {
+    const card = document.createElement("div");
+    card.className = "match-card";
+    card.innerHTML = `
+      <div class="match-head">
+        <div style="flex:1">
+          <div class="league">${m.league} • <span class="pill">${m.time}</span></div>
+          <div class="teams">${m.teams}</div>
+          <div class="meta">Canali: ${m.channels.length}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;justify-content:center;gap:8px">
+          <button class="pill" data-idx="${idx}" aria-label="Apri canali">Apri</button>
+        </div>
+      </div>
+      <div class="channels" id="channels-${idx}" style="display:none;padding-top:6px"></div>
+    `;
+    matchListEl.appendChild(card);
+
+    // add channel buttons
+    const channelsEl = card.querySelector(`#channels-${idx}`);
+    m.channels.forEach((ch, ci) => {
+      const chEl = document.createElement("div");
+      chEl.className = "channel";
+      chEl.setAttribute("role","button");
+      chEl.setAttribute("tabindex","0");
+      chEl.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" style="opacity:.9"><path fill="currentColor" d="M8 5v14l11-7z"></path></svg><div>${ch.name}</div>`;
+      chEl.addEventListener("click", () => openPlayer(m, ch));
+      channelsEl.appendChild(chEl);
+    });
+
+    // toggle open channels
+    const btn = card.querySelector("button.pill");
+    btn.addEventListener("click", () => {
+      const v = channelsEl.style.display === "none" ? "flex" : "none";
+      channelsEl.style.display = v;
+      if(v === "flex"){
+        // small preview
+        preview.textContent = `${m.teams} • ${m.league}`;
+      } else {
+        preview.textContent = "Seleziona un canale per anteprima";
+      }
+    });
+  });
+}
+
+// open player modal
+function openPlayer(match, channel){
+  modal.style.display = "flex";
+  modalTitle.textContent = `${match.teams} — ${channel.name}`;
+  modalSub.textContent = `${match.league} • ${match.time}`;
+  // set the video source (in real app use the HTTP stream URL)
+  videoSrc.src = channel.url;
+  video.load();
+  // autoplay if allowed
+  video.play().catch(()=>{/* autoplay blocked: user must interact */});
+}
+
+// close modal
+closeModal.addEventListener("click", () => {
+  modal.style.display = "none";
+  video.pause();
+  video.currentTime = 0;
+  videoSrc.src = "";
+});
+modal.addEventListener("click", (e) => {
+  if(e.target === modal) {
+    closeModal.click();
+  }
+});
+
+// search
+q.addEventListener("input", ()=> {
+  const term = q.value.trim().toLowerCase();
+  if(!term) return render(MOCK);
+  render(MOCK.filter(m => (m.teams + " " + m.league).toLowerCase().includes(term)));
+});
+
+// initial render
+render(MOCK);
+</script>
+</body>
+  </html>
