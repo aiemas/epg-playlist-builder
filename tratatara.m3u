@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="NovaSP1" group-title="Sport",Nova Sport 1
-https://netanyahu.modifiles.fans:443/secure/wyHYsEiQVzzYSaHUFxjQdOSJpKXYBvMF/1778255100/1778282100/sa_tor/tracks-v1a1/mono.ts.m3u8
+https://netanyahu.modifiles.fans/secure/QsvrtcePjvlGUNVVMYQBpJyEREaRotzI/1778255100/1778282100/sa_tor/index.m3u8
 
 #EXTINF:-1 tvg-id="NovaSP2" group-title="Sport",Nova Sport 2
 https://h4kuqqzp.39564828.net:8443/hls/71urpyq.m3u8?s=KMC7T2A7ciCYCAWDxmC1PA&e=1778119685
